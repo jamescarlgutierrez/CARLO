@@ -1,0 +1,119 @@
+
+body {
+    background-color: #0A5F7D;
+    text-align: center;
+}
+header {
+    background-color: rgb(141, 189, 207);
+    background-position: center;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: groove;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav {
+    background-color:  rgb(141, 189, 207);
+    background-position: center;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 35px;
+    word-spacing: 10px;
+}
+#about{
+    background-color:  rgb(141, 189, 207);
+    border-radius: 30px;
+    border-style: groove;
+    border-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+a:hover{
+    background-color: #dce7eb;
+}
+main img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+main p{
+    text-align: justify;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#interests{
+    background-color:  rgb(141, 189, 207);
+    border-radius: 30px;
+    border-style: groove;
+    border-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#schedule{
+    background-color:  rgb(141, 189, 207);
+    border-radius: 30px;
+    border-style: groove;
+    border-color: white;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+table{
+    margin: auto;
+    width: 90%;
+    border-style: groove;
+    border-color: #ffffff;   
+}
+th, td {
+    border: 1px solid black;
+    margin: auto;
+}
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+li {
+     padding: 5px;
+}
+tr:hover {
+    background-color: #35CAFF;
+}
+input, textarea {
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+textarea {
+    width: 200px;
+    height: 70px;
+}
+#contact{
+    background-color:  rgb(141, 189, 207);
+    border-radius: 30px;
+    border-style: groove;
+    border-color: white;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}

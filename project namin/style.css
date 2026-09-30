@@ -1,0 +1,170 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* MAIN CONTENT WRAPPER */
+.content-wrapper {
+    flex: 1;
+}
+
+/* HEADER */
+header {
+    background-color: #080D1C;
+    text-align: center;
+    padding: 5px;
+}
+
+header h1 {
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: transparent !important;
+    padding: 20px;
+}
+
+.navbar-nav {
+    background-color: #101A36;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto !important;
+}
+
+.navbar-nav a {
+    color: #EAF2FF !important;
+}
+
+.navbar-nav a:hover {
+    color: #3D6FE8 !important;
+}
+
+/* CARDS */
+.d-flex {
+    display: flex;
+    gap: 0;
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(17, 28, 53, 0.95);
+    border: 1px solid #2455A6;
+    border-radius: 8px;
+    margin: 0;
+    width: 33.333% !important;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-link {
+    color: #3D6FE8 !important;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(17, 28, 53, 0.95);
+    border: 1px solid #2455A6;
+    border-radius: 10px;
+}
+.des {
+    background-color: rgba(17, 28, 53, 0.95);
+    border: 1px solid #2455A6;
+}
+form {
+    background-color: rgba(17, 28, 53, 0.95);
+    border: 1px solid #2455A6;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* FOOTER */
+footer {
+    background-color: #080D1C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+
+    .card-img-top {
+        height: auto !important;
+        max-height: 300px;
+    }
+}
